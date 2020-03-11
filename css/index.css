@@ -200,7 +200,7 @@ img {
   }
 }
 .main-navigation .nav-container .nav {
-  width: 350px;
+  width: 600px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -219,12 +219,21 @@ img {
   width: 100%;
   border-top: 2px dashed #C0C0C0;
   background: #FFEBCD;
+  display: flex;
+  flex-direction: column;
 }
 .footer p {
   text-align: center;
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.footer a {
+  margin: 0 auto;
+  color: #212529;
+  font-size: 1rem;
+  padding: 20px;
+  text-decoration: none;
 }
 .home .intro {
   padding: 90px 0 10px;
@@ -236,6 +245,9 @@ img {
 }
 .home .intro h2 {
   margin-top: 20px;
+}
+.home .intro #missedBus {
+  display: none;
 }
 .home .content-section {
   margin: 30px 0;
